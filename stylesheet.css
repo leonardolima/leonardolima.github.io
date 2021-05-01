@@ -1,0 +1,59 @@
+html {
+    background: #1b2021;
+    color: #ffffff;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@media only screen and (min-width: 481px) {
+    html {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+body {
+    margin: 37px 5%;
+}
+
+@media only screen and (min-width: 481px) {
+    body {
+        margin: 75px auto;
+        width: 550px;
+    }
+}
+
+a {
+    color: #bb8082;
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #1b2021;
+    background: #bb8082;
+    text-decoration: none;
+}
+
+p,
+ul,
+.hr {
+    margin: 0;
+    margin-bottom: 37px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul > li {
+    margin-left: 23px;
+}
+
+.hr {
+    background: transparent;
+    border-bottom: 1px solid #444444;
+    border-top: 1px solid #111111;
+}
