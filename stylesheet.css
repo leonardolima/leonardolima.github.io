@@ -25,15 +25,15 @@ body {
 }
 
 a {
-    color: #bb8082;
-    text-decoration: underline;
+    color: #70ae98;
+    text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
     color: #1b2021;
-    background: #bb8082;
+    background: #70ae98;
     text-decoration: none;
 }
 
