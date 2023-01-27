@@ -57,3 +57,22 @@ ul > li {
     border-bottom: 1px solid #444444;
     border-top: 1px solid #111111;
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.subtext {
+    font-size: 0.875em;
+}
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+img {
+  border: 2px solid #70ae98;
+}
