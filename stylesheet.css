@@ -8,13 +8,17 @@ html {
 
 @media only screen and (min-width: 481px) {
     html {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 32px;
     }
 }
 
 body {
     margin: 37px 5%;
+}
+
+table {
+    font-size: 14px;
 }
 
 @media only screen and (min-width: 481px) {
